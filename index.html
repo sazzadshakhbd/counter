@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="container flex items-center justify-center h-screen flex-col">
+        <h4 class="text-3xl text-black-400 uppercase font-semibold mb-5">counter</h4>
+        <span id="value">0</span>
+        <div class="button-container mt-5">
+            <button class="btn decrease bg-red-500 rounded-md mr-1 w-24 p-3 text-white">Decrease</button>
+            <button class="btn reset bg-gray-500 rounded-md mr-1 w-24 p-3 text-white">Reset</button>
+            <button class="btn increase bg-green-500 rounded-md mr-1 w-24 p-3 text-white">Increase</button>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
